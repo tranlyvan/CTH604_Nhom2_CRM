@@ -1,0 +1,27 @@
+Traced on 2020-12-13 04:00:05
+FileAccessForInclusion - 
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/vtlib/Vtiger/AccessControl.php::checkFileAccessForInclusion::25<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/vtlib/Vtiger/AccessControl.php::loadUserPrivilegesWithId::44<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/modules/Users/Users.php::loadUserPrivileges::646<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/includes/main/WebUI.php::retrieveCurrentUserInfoFromFile::47<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/includes/main/WebUI.php::getLogin::104<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/index.php::process::20<br>
+Traced on 2020-12-13 04:05:50
+FileAccessForInclusion - 
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/include/utils/CommonUtils.php::checkFileAccessForInclusion::388<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/vtlib/Vtiger/AccessControl.php::checkFileAccessForInclusion::25<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/vtlib/Vtiger/AccessControl.php::loadUserPrivilegesWithId::44<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/modules/Users/Users.php::loadUserPrivileges::646<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/modules/Users/models/Record.php::retrieveCurrentUserInfoFromFile::818<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/modules/Users/models/Privileges.php::getInstanceFromPreferenceFile::188<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/test/templates_c/v7/c12e05189570bdc67ce900db5fb0d2eead292497.file.ListViewRecordActions.tpl.php::isPermittedToChangeUsername::33<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_5fd5931ed82a8::180<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/libraries/Smarty/libs/sysplugins/smarty_internal_template.php::fetch::285<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/test/templates_c/v7/9bcdc996edf73672e8f78644f3db22181fb2c7ae.file.ListViewContents.tpl.php::getSubTemplate::107<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::content_5fd5931ed590a::180<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/libraries/Smarty/libs/sysplugins/smarty_internal_templatebase.php::fetch::374<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/includes/runtime/Viewer.php::display::188<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/modules/Users/views/List.php::view::31<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/includes/main/WebUI.php::process::215<br>
+/usr/CTH604_Nhom2_CRM/Source_Code/vtigercrm/index.php::process::20<br>
